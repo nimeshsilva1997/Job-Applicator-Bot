@@ -7,6 +7,6 @@ Job Applicator Bot written in Python
 # system wide features, such as registering COM objects or implementing Windows
 pip install pypiwin32
 
-# takes full control of your keyboard with this small Python library
+# takes full control of your keyboard with this small Python library. Hoke and simulate keyboard events on Windows and Linux
 pip install keyboard
 ```
