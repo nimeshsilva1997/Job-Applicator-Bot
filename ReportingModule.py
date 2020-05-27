@@ -1,8 +1,7 @@
 import datetime as dt
 import os
-'''
 import pandas as pd
-'''
+
 def saveReportAsCSV(df):
     saved_df = pd.DataFrame(df)
     saved_df.columns = ["Company Name", "Job Title", "Location", "Easy Apply", "Application Successful"]
