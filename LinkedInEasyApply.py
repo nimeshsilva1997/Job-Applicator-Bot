@@ -12,7 +12,8 @@ from selenium.webdriver import ActionChains
 import ReportingModule as Report
 import datetime as dt
 import keyboard
-import win32api, win32con
+import win32api
+import win32con
 '''
 lReference: https://stackoverflow.com/questions/37088589/selenium-wont-open-a-new-url-in-a-new-tab-python-chrome
 https://stackoverflow.com/questions/28431765/open-web-in-new-tab-selenium-python
