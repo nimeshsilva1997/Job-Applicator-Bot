@@ -1,8 +1,9 @@
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+'''
 import pandas as pd
-
+'''
 def send_email(user, pwd, recipient, subject, df):
     try:
         # Create message container - the correct MIME type is multipart/alternative.
